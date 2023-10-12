@@ -28,7 +28,7 @@ public class Base_class
 		}
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		return driver;
 	}
 }
